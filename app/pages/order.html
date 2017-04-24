@@ -1,0 +1,54 @@
+<div>
+	<h2>Billing</h2>
+	<div class="col-sm-8 col-lg-8 col-md-8">
+		<form class="cart-panel form-horizontal" name="form" role="form">
+		<legend>Personal info</legend>
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">Full Name</label>
+	        <div class="col-sm-9">
+	          <input type="text" class="form-control" ng-model="full_name" name="full_name" ng-pattern="/^[a-zA-Z\s]*$/" placeholder="Full Name" ng-class="{'ng-invalid': !form.full_name.$valid }" required="true">
+	        </div>
+      	</div>
+      	<div class="form-group">
+	        <label class="col-sm-3 control-label">Address</label>
+	        <div class="col-sm-9">
+	          <input type="text" class="form-control" ng-model="address" name="address" placeholder="Address" required="true">
+	        </div>
+      	</div>
+      	<div class="form-group">
+	        <label class="col-sm-3 control-label">Email</label>
+	        <div class="col-sm-9">
+	          <input type="email" class="form-control"  ng-pattern='	
+/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/' placeholder="Email" ng-model="email" name="email" ng-class="{'ng-invalid': !form.email.$valid }"  required="true">
+	        </div>
+      	</div>
+      	<div class="form-group">
+	        <label class="col-sm-3 control-label">Phone number</label>
+	        <div class="col-sm-9">
+	          <input type="text" ng-pattern="/^[0-9\-\+]{9,15}$/" class="form-control" placeholder="Phone number" ng-model="phone" name="phone" ng-class="{'ng-invalid': !form.phone.$valid }"  required="true">
+	        </div>
+      	</div>
+      <legend>Credit card info</legend>
+      <div class="form-group">
+        <label class="col-sm-3 control-label">Card Number</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" name="card_number" ng-model="card_number" ng-pattern="/^[0-9]{19}$/" placeholder="Debit/Credit Card Number" ng-class="{'ng-invalid': !form.card_number.$valid }" required="true">
+        </div>
+      </div>
+      <legend>Item info</legend>
+      <div class="cart-item">
+		<span class="item-name col-md-10">{{ item.name }}</span>
+		<span class="item-price col-md-1"><span class="suggested-price" ng-show="item.suggested_price !== item.price">{{ item.suggested_price }}$</span></span>
+		<span class="item-price col-md-1">{{ item.price }}$</span>
+	  </div>
+      <div class="form-group cart-actions">
+        <div class="col-sm-offset-3 col-sm-9">
+          <button type="button" class="btn btn-success" ng-click="send()" ng-model="button" ng-disabled="!form.$valid">Pay Now</button>
+          <a class="btn btn-default" href="#/">Back to homepage</a>
+        </div>
+      </div>
+  	</form>
+	</div>
+	<div class="col-sm-4 col-lg-4 col-md-4">
+	</div>
+</div>

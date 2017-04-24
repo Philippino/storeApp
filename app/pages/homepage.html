@@ -1,0 +1,30 @@
+<div class="shop-menu">
+    	<button class="btn btn-link" ng-click="sortBy('name')">
+    		Sort by name
+    		<span class="sortorder" ng-show="propertyName === 'name'" ng-class="{'reverse': reverse}" aria-hidden="true"></span>
+    	</button>
+    	<button class="btn btn-link" ng-click="sortBy('price')">
+            Sort by price
+            <span class="sortorder" ng-show="propertyName === 'price'" ng-class="{'reverse': reverse}" aria-hidden="true"></span>
+        </button>
+    	<input type="text" class="form-control" placeholder="Search item" ng-model="searchText">
+</div>
+<div class="row">
+    <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="item in items | orderBy:propertyName:reverse | filter:searchText">
+        <div class="thumbnail">
+            <img src="{{ item.pic_src }}" alt="">
+            <div class="caption">
+                <h4>{{ item.name }}</h4>
+                <h4>
+                    <span class="suggested-price" ng-if="item.price != item.suggested_price">{{ item.suggested_price }}$</span>
+                    <span class="actual-price">{{ item.price }}$</span>
+                    <span class="discount" ng-if="item.price != item.suggested_price">{{ 100 - item.price / item.suggested_price * 100 | number: 0}} % </span>
+                </h4>
+                <p>{{ item.description }}</p>
+            </div>
+            <div class="actions">
+            	<a class="btn btn-default pull-right" ng-click="order(item.id)">Buy</a>
+            </div>
+        </div>
+    </div>
+</div>

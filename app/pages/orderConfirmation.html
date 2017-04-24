@@ -1,0 +1,18 @@
+<div>
+	<h2>Order confirmed</h2>
+	<div class="cart-panel">
+		<legend>Personal info</legend>
+        <div>{{ buyer.full_name }}</div>
+        <div>{{ buyer.address }}</div>
+        <div>{{ buyer.email }}</div>
+        <div>{{ buyer.phone }}</div>
+        <legend>Payment info</legend>
+        <div>{{ buyer.card_number }}</div>
+        <legend>Item info</legend>
+        <div class="cart-item">
+			<span class="item-name col-md-10">{{ item.name }}</span>
+			<span class="item-price col-md-2">{{ item.price }}</span>
+  		</div>
+  	</div>
+    <a class="btn btn-default" href="#/">Back to homepage</a>
+</div>

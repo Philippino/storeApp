@@ -1,0 +1,160 @@
+[{
+	"id": 1,
+	"name": "Рубашка с коротким рукавом",
+	"suggested_price": 29.99,
+	"price": 19.99,
+	"description": "Рубашка с коротким рукавом из твила из лиоцеллового Tencel.",
+	"pic_src": "data/img/rubashka.jpg"
+},
+{
+	"id": 2,
+	"name": "Широкие брюки",
+	"suggested_price": 25.99,
+	"price": 19.99,
+	"description": "Брюки из тканого материала. Широкие, зауженные книзу брючины.",
+	"pic_src": 	"data/img/bruki.jpg"
+},
+{
+	"id": 3,
+	"name": "Платье на одно плечо",
+	"suggested_price": 79.99,
+	"price": 59.99,
+	"description": "Короткое платье из жатого шифона с набивным рисунком.",
+	"pic_src": "data/img/one_shoulder_dress.jpg"
+},
+{
+	"id": 4,
+	"name": "Босоножки",
+	"suggested_price": 14.99,
+	"price": 14.99,
+	"description": "Босоножки на обтянутом устойчивом каблуке.",
+	"pic_src": "data/img/bosonojki.jpg"
+},
+{
+	"id": 5,
+	"name": "Юбка клеш",
+	"suggested_price": 49.99,
+	"price": 45.99,
+	"description": "Юбка длиной до середины икры из плотной ткани с блеском.",
+	"pic_src": "data/img/ubka.jpg"
+},
+{
+	"id": 6,
+	"name": "Маленькая замшевая сумка",
+	"suggested_price": 29.99,
+	"price": 9.99,
+	"description": "Маленькая замшевая сумочка через плечо.",
+	"pic_src": "data/img/sumka.jpg"
+},
+{
+	"id": 7,
+	"name": "Сумка",
+	"suggested_price": 19.99,
+	"price": 12.99,
+	"description": "Маленькая сумочка на длинном ремне из регенерированной кожи.",
+	"pic_src": "data/img/sumka2.jpg"
+},
+{
+	"id": 8,
+	"name": "Твиловые кеды",
+	"suggested_price": 9.99,
+	"price": 4.99,
+	"description": "Кеды из хлопкового холста. Шнуровка спереди и хлястик сзади.",
+	"pic_src": "data/img/kedy.jpg"
+},
+{
+	"id": 9,
+	"name": "Слипоны",
+	"suggested_price": 15.99,
+	"price": 7.99,
+	"description": "Слипоны. По бокам разрезы, сзади хлястик. Твиловая стелька.",
+	"pic_src": "data/img/slipony.jpg"
+},
+{
+	"id": 10,
+	"name": "Шорты из смесового льна",
+	"suggested_price": 19.99,
+	"price": 12.99,
+	"description": "Шорты длиной до колена из смесового хлопка с добавлением льна.",
+	"pic_src": "data/img/shorty.jpg"
+},
+{
+	"id": 11,
+	"name": "Майка",
+	"suggested_price": 9.99,
+	"price": 9.99,
+	"description": "Трикотажная майка. Скругленный нижний край.",
+	"pic_src": "data/img/maika.jpg"
+},
+{
+	"id": 12,
+	"name": "Свитшот",
+	"suggested_price": 39.99,
+	"price": 39.99,
+	"description": "Свитшот из хлопкового футера.",
+	"pic_src": "data/img/switshot.jpg"
+},
+{
+	"id": 13,
+	"name": "Кеды",
+	"suggested_price": 19.99,
+	"price": 19.99,
+	"description": "Кеды со шнуровкой спереди и шлевкой сзади.",
+	"pic_src": "data/img/kedy2.jpg"
+},
+{
+	"id": 14,
+	"name": "Толстовка",
+	"suggested_price": 34.99,
+	"price": 29.99,
+	"description": "Толстовка из байкового материала.",
+	"pic_src": "data/img/tolstovka.jpg"
+},
+{
+	"id": 15,
+	"name": "Джемпер",
+	"suggested_price": 19.99,
+	"price": 19.99,
+	"description": "Лонгслив из хлопкового трикотажа с вафельной структурой. ",
+	"pic_src": "data/img/jamper.jpg"
+},
+{
+	"id": 16,
+	"name": "Пальто из смесовой шерсти",
+	"suggested_price": 119.99,
+	"price": 99.99,
+	"description": "Пальто типа бушлат из смесового шерстяного фетра. ",
+	"pic_src": "data/img/palto.jpg"
+},
+{
+	"id": 17,
+	"name": "Ботинки",
+	"suggested_price": 49.99,
+	"price": 49.99,
+	"description": "Ботинки челси с резинками по бокам.",
+	"pic_src": "data/img/botinki.jpg"
+},
+{
+	"id": 18,
+	"name": "Кожаные оксфордские ботинки",
+	"suggested_price": 54.99,
+	"price": 54.99,
+	"description": "Оксфордские ботинки из кожи. На ботинках закрытая шнуровка с усиленным носком.",
+	"pic_src": "data/img/oxfords.jpg"
+},
+{
+	"id": 19,
+	"name": "Кожаные лоферы",
+	"suggested_price": 99.99,
+	"price": 99.99,
+	"description": "Лоферы из мягкой кожи. Мокасинный шов спереди. ",
+	"pic_src": "data/img/lofers.jpg"
+},
+{
+	"id": 20,
+	"name": "Костюмные брюки Slim fit",
+	"suggested_price": 39.99,
+	"price": 29.99,
+	"description": "Костюмные брюки из хлопковой ткани с лампасами контрастного цвета. ",
+	"pic_src": "data/img/bruki2.jpg"
+}]

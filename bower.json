@@ -1,0 +1,20 @@
+{
+	"name": "StoreApp",
+	"version": "1.0.0",
+	"author": "Anton Philippov",
+	"description": "angularJS project for store",
+	"private": true,
+	"dependencies": {
+		"angular": "1.5.x",
+		"angular-route": "1.5.x",
+		"bootstrap": "*",
+		"jquery": "2.2.x"
+	},
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
